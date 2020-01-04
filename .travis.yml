@@ -1,0 +1,9 @@
+language: node_js
+deploy:
+  provider: npm
+  email: dylanalvarez1995@gmail.com
+  edge: true
+  api_key:
+    secure: Vi7Qt+10L5FkIViDRKWnh2zp9sNR/8lhiYjjSD6b7y1lNgRaCaAN0JkYUOh/3Z/U8SJ7XgeccOj9oC4EGiBOl1JsAwv0BIeqAtvDoAdHhbr1mFQTNW/MkimoI9ZFO6rri+TN2R+gud798H9DsjQYhN6uXcto+2I/0rMXBUsRhOnj+BTXFS7o2oJpgNGfKvdkwe2AgUTFMd80HSaTjdePZehB1pIz8owZOnqgZxYuaXTci4fAgZ9v/0bnrq7WtKdswnKFldMrZKehCZUkHJmKq6jcumCW8tLIsxr739coYLCcbh5xbMFkKJiqlRvuoRTm/6POxPByzogScU9fHfob0oQ/huqPiy89N4oz5eDbKV8vL0Ate99IFbb1oM8tOmJDfpGEfSc5OnF0lF9fN9MRz77JTLmOqSzEDbvLRLGvhNuAAw5UGuVOiSNa4aXhlhhxKxR7yMLWQciul1Dn/i9dndPOzexWBCgKLCTTHkEZU/Szseof/2lp+Ue22/PSCZpmkq2Efd8homFDMXHyD06QY+t6sfEtXxU3qaQQjJGp4PPpzT5EOgOJIEK8iykM2+w8e9EEjaP2fXbmI6VdWVmcYtLaG+QmVoVYtIvy+4aleypD1IoZx/MkNwrB5Yrue1HNrVQpHxk7imIHPwBRDYOEgMvNXnl+FkggFDMjDtWf/Fk=
+  on:
+    repo: fiuba-laboral-v2/tslint-config
