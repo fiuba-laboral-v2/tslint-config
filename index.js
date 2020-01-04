@@ -73,7 +73,8 @@ module.exports = {
           "typeLiterals": "ignore"
         }
       }
-    ]
+    ],
+    "object-literal-shorthand": false
   },
   "jsRules": {
     "max-line-length": {
