@@ -1,12 +1,16 @@
 {
   "name": "tslint-config-fiuba-laboral-v2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared tslint config for fiuba laboral v2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dylan Alvarez <dylanalvarez1995@gmail.com>",
+  "contributors": [
+    "Dylan Alvarez <dylanalvarez1995@gmail.com>",
+    "Sebastian Blanco <sebastian.e.blanco@gmail.com>",
+    "Manuel Llauró <llauromanuel@gmail.com>"
+  ],
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">= 5"
