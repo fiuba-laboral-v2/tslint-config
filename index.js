@@ -74,7 +74,8 @@ module.exports = {
         }
       }
     ],
-    "object-literal-shorthand": false
+    "object-literal-shorthand": false,
+    "whitespace": [true, "check-module"]
   },
   "jsRules": {
     "max-line-length": {
