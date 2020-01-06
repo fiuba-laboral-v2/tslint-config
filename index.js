@@ -73,7 +73,9 @@ module.exports = {
           "typeLiterals": "ignore"
         }
       }
-    ]
+    ],
+    "object-literal-shorthand": false,
+    "whitespace": [true, "check-module"]
   },
   "jsRules": {
     "max-line-length": {
