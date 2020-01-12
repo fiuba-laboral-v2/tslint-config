@@ -1,6 +1,6 @@
 # TSLint Config
 
-Template para el estilo de código para todos los repositorios TypeScript de fiuba-laboral-v2
+Template para el estilo de código de todos los repositorios TypeScript de fiuba-laboral-v2
 
 ## Más convenciones de código:
 
