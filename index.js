@@ -93,5 +93,6 @@ module.exports = {
       "config/**/*.js"
     ]
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "interface-over-type-literal": false
 };
