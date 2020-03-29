@@ -76,7 +76,8 @@ module.exports = {
     ],
     "object-literal-shorthand": false,
     "whitespace": [true, "check-module"],
-    "align": [true, "parameters", "statements", "arguments", "members", "elements"]
+    "align": [true, "parameters", "statements", "arguments", "members", "elements"],
+    "interface-over-type-literal": false
   },
   "jsRules": {
     "max-line-length": {
@@ -93,6 +94,5 @@ module.exports = {
       "config/**/*.js"
     ]
   },
-  "rulesDirectory": [],
-  "interface-over-type-literal": false
+  "rulesDirectory": []
 };
