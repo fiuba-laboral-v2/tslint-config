@@ -94,5 +94,6 @@ module.exports = {
       "config/**/*.js"
     ]
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "no-unused-variable": [true, {"ignore-pattern": "^_"}]
 };
