@@ -76,6 +76,20 @@ module.exports = {
     ],
     "object-literal-shorthand": false,
     "align": [true, "parameters", "statements", "arguments", "members", "elements"],
+    "interface-over-type-literal": false,
+    "eofline": true,
+    "space-within-parens": true,
+    "no-any": [ true, { "ignore-rest-args": true } ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
     "whitespace": [
       true,
       "check-branch",
@@ -84,8 +98,8 @@ module.exports = {
       "check-module",
       "check-separator",
       "check-rest-spread",
-      "check-type",
       "check-typecast",
+      "check-type",
       "check-type-operator",
       "check-preblock",
       "check-postbrace"
