@@ -79,7 +79,7 @@ module.exports = {
     "interface-over-type-literal": false,
     "eofline": true,
     "space-within-parens": true,
-    "no-any": [ true, { "ignore-rest-args": true } ],
+    "no-unsafe-any": true,
     "typedef-whitespace": [
       true,
       {
