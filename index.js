@@ -75,8 +75,21 @@ module.exports = {
       }
     ],
     "object-literal-shorthand": false,
-    "whitespace": [true, "check-module"],
-    "align": [true, "parameters", "statements", "arguments", "members", "elements"]
+    "align": [true, "parameters", "statements", "arguments", "members", "elements"],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-rest-spread",
+      "check-type",
+      "check-typecast",
+      "check-type-operator",
+      "check-preblock",
+      "check-postbrace"
+    ]
   },
   "jsRules": {
     "max-line-length": {
