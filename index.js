@@ -18,11 +18,6 @@ module.exports = {
       true,
       "always"
     ],
-    "indent": [
-      true,
-      "spaces",
-      2
-    ],
     "forin": true,
     "curly": [
       true,
@@ -82,7 +77,6 @@ module.exports = {
     "interface-over-type-literal": false,
     "eofline": true,
     "space-within-parens": true,
-    "no-any": true,
     "typedef-whitespace": [
       true,
       {
@@ -106,7 +100,8 @@ module.exports = {
       true,
       "always"
     ],
-    "no-multi-spaces": "error"
+    "no-multi-spaces": "error",
+    "ter-indent": [true, 2]
   },
   "jsRules": {
     "max-line-length": {
