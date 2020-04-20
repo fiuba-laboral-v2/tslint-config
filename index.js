@@ -106,7 +106,7 @@ module.exports = {
       true,
       "always"
     ],
-    "no-multiple-empty-lines": "error"
+    "no-multi-spaces": "error"
   },
   "jsRules": {
     "max-line-length": {
