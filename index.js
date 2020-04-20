@@ -96,10 +96,7 @@ module.exports = {
       "check-whitespace"
     ],
     "object-curly-spacing": true,
-    "array-bracket-spacing": [
-      true,
-      "always"
-    ],
+    "array-bracket-spacing": [ true, "never" ],
     "no-multi-spaces": "error",
     "ter-indent": [true, 2]
   },
