@@ -1,5 +1,8 @@
 module.exports = {
-  "extends": "tslint:recommended",
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules"
+  ],
   "rules": {
     "max-line-length": {
       "options": [
@@ -14,11 +17,6 @@ module.exports = {
     "semicolon": [
       true,
       "always"
-    ],
-    "indent": [
-      true,
-      "spaces",
-      2
     ],
     "forin": true,
     "curly": [
@@ -61,7 +59,7 @@ module.exports = {
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
-    "no-consecutive-blank-lines": false,
+    "no-consecutive-blank-lines": true,
     "trailing-comma": [
       true,
       {
@@ -75,9 +73,32 @@ module.exports = {
       }
     ],
     "object-literal-shorthand": false,
-    "whitespace": [true, "check-module"],
     "align": [true, "parameters", "statements", "arguments", "members", "elements"],
-    "interface-over-type-literal": false
+    "interface-over-type-literal": false,
+    "eofline": true,
+    "space-within-parens": true,
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "one-line": [
+      true,
+      "check-catch",
+      "check-finally",
+      "check-else",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "object-curly-spacing": true,
+    "array-bracket-spacing": [true, "never"],
+    "no-multi-spaces": "error",
+    "ter-indent": [true, 2]
   },
   "jsRules": {
     "max-line-length": {
