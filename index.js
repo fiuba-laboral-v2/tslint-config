@@ -59,7 +59,7 @@ module.exports = {
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
-    "no-consecutive-blank-lines": false,
+    "no-consecutive-blank-lines": true,
     "trailing-comma": [
       true,
       {
