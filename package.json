@@ -12,8 +12,11 @@
     "Manuel Llauró <llauromanuel@gmail.com>"
   ],
   "license": "ISC",
-  "peerDependencies": {
-    "eslint": ">= 5"
+  "dependencies": {
+    "tslint": "5.20.1",
+    "typescript": "~3.7.2",
+    "eslint": ">= 5",
+    "tslint-eslint-rules": "5.4.0"
   },
   "publishConfig": {
     "access": "public"

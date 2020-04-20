@@ -1,5 +1,8 @@
 module.exports = {
-  "extends": "tslint:recommended",
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules"
+  ],
   "rules": {
     "max-line-length": {
       "options": [
@@ -79,7 +82,7 @@ module.exports = {
     "interface-over-type-literal": false,
     "eofline": true,
     "space-within-parens": true,
-    "no-unsafe-any": true,
+    "no-any": true,
     "typedef-whitespace": [
       true,
       {
@@ -90,20 +93,20 @@ module.exports = {
         "variable-declaration": "nospace"
       }
     ],
-    "whitespace": [
+    "one-line": [
       true,
-      "check-branch",
-      "check-decl",
-      "check-operator",
-      "check-module",
-      "check-separator",
-      "check-rest-spread",
-      "check-typecast",
-      "check-type",
-      "check-type-operator",
-      "check-preblock",
-      "check-postbrace"
-    ]
+      "check-catch",
+      "check-finally",
+      "check-else",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "object-curly-spacing": true,
+    "array-bracket-spacing": [
+      true,
+      "always"
+    ],
+    "no-multiple-empty-lines": "error"
   },
   "jsRules": {
     "max-line-length": {
